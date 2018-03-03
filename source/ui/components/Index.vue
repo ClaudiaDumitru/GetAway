@@ -1,127 +1,82 @@
 <template>
 	
 	<div id="fh5co-page">
+	
 	<header id="fh5co-header" role="banner">
-		<div class="container">
-			<div class="header-inner">
-				<h1><a href="index.html">Flew</a></h1>
+		<div class = "sus">
+
+				<h1><a href="index.html">GetAway</a></h1>
+			<div class = "sus1">
 				<nav role="navigation">
 					<ul>
-						<li><a href="work.html">Work</a></li>
-						<li><a href="services.html">Services</a></li>
-						<li><a href="pricing.html">Pricing</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="contact.html">Contact</a></li>
-						<li class="cta"><a href="#">Get started</a></li>
+						<li><a href="#">Tracking</a></li>
+						<li><a href="#">Contact</a></li>
+						<li class="cta">
+							<img src = "images/call.png" class="call">
+						</li>
 					</ul>
 				</nav>
 			</div>
+				<a class = "sus2"><font color = "#000">Call 112</font></a>
 		</div>
 	</header>
-	
+
 	<div class="container">
 		
 	</div>
 	<aside id="fh5co-hero" class="js-fullheight">
-		<div class="flexslider js-fullheight">
-			<ul class="slides">
-		   	<li style="background-image: url(images/slide_1.jpg);">
-		   		<div class="overlay-gradient"></div>
-		   		<div class="container">
-		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
-		   				<div class="slider-text-inner">
-		   					<h2>Start Your Startup With This Template</h2>
-		   					<p><a href="#" class="btn btn-primary btn-lg">Get started</a></p>
-		   				</div>
-		   			</div>
-		   		</div>
-		   	</li>
-		   	<li style="background-image: url(images/slide_2.jpg);">
-		   		<div class="container">
-		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
-		   				<div class="slider-text-inner">
-		   					<h2>Take Your Business To The Next Level</h2>
-		   					<p><a href="#" class="btn btn-primary btn-lg">Get started</a></p>
-		   				</div>
-		   			</div>
-		   		</div>
-		   	</li>
-		   	<li style="background-image: url(images/slide_3.jpg);">
-		   		<div class="container">
-		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
-		   				<div class="slider-text-inner">
-		   					<h2>We Think Different That Others Can't</h2>
-		   					<p><a href="#" class="btn btn-primary btn-lg">Get started</a></p>
-		   				</div>
-		   			</div>
-		   		</div>
-		   	</li>
-		  	</ul>
+		<div class="backgroundimage">
+		   	<img src = "images/backgroundambulance.jpg">
 	  	</div>
 	</aside>
 	<div id="fh5co-services-section">
+		<br><br><br><br><br><br><br><br><br><br>
+		 
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
-					<h2>Our Awesome Features</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+					<h2>Services</h2>
+					<p> Emergency medical aid is part of the health care system that is rarely thought, but is still expected to be available always and continuously in case of need. </p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4 animate-box">
 					<div class="services">
-						<i class="icon-laptop"></i>
+						<div class="iconite">
+							<img src="images/call.png">
+						</div>
 						<div class="desc">
-							<h3>Dashboard</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+							<h3>Direct emergency call</h3>
+							<p>If you are in need of an emergency car, just call it from the app and you will also be able
+							to keep in touch with the medical staff, providing them useful information until their arrival.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 animate-box">
 					<div class="services">
-						<i class="icon-server"></i>
+						<div class="iconite">
+							<img src="images/ambulance.png" id="iconite">
+						</div>
 						<div class="desc">
-							<h3>Administration</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+							<h3>Raising awareness</h3>
+							<p>The regular car drivers will be notified when an emergency car approaches so they will 
+								have enough time to react in a way that will help the emergency car arrive as soon as 
+								possible to the destination.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 animate-box">
 					<div class="services">
-						<i class="icon-money"></i>
+						<div class="iconite">
+							<img src="images/tracking.png">
+						</div>
 						<div class="desc">
-							<h3>Make Money</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+							<h3>Track your emergency car</h3>
+							<p>Track the emergency car's position in real.</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 animate-box">
-					<div class="services">
-						<i class="icon-tablet"></i>
-						<div class="desc">
-							<h3>SEO Monitoring</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 animate-box">
-					<div class="services">
-						<i class="icon-line-chart"></i>
-						<div class="desc">
-							<h3>Online Marketing</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 animate-box">
-					<div class="services">
-						<i class="icon-pie-chart"></i>
-						<div class="desc">
-							<h3>Business Analytics</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
-						</div>
-					</div>
-				</div>
+				
 			</div>
 		</div>
 	</div>

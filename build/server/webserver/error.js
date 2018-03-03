@@ -79,13 +79,13 @@ function sendError (res, e)
 // 	return data;
 // }
 
-var log = require('../logger.js')('error').getLogger();
+// var log = require('../logger.js')('error').getLogger();
 
 process.on ('uncaughtException', function (ex)
 {
 	console.error ('Uncaught Exception');
 	console.error (ex.stack);
-	log.fatal ('Uncaught exception', {exception: ex});
+	// log.fatal ('Uncaught exception', {exception: ex});
 	process.nextTick (function ()
 	{
 		process.exit (2);

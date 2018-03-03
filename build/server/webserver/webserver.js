@@ -44,10 +44,12 @@ function serverListener (err)
 	if (err)
 	{
 		log.fatal ('Error listening to port ' + port, err);
+		console.log('Error listening to port ' + port, err);
 	}
 	else
 	{
 		log.info ('Webserver started listening on port ' + port);
+		console.log('Webserver started listening on port ' + port);
 	}
 }
 

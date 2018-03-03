@@ -6,14 +6,14 @@ log.info ('Starting Webserver');
 var express = require ('express');
 var http = require ('http');
 var bodyParser = require ('body-parser');
-var bunyanRequestLogger = require ('bunyan-request-logger');
+//var bunyanRequestLogger = require ('bunyan-request-logger');
 var path = require ('path');
 var error = require ('./error.js');
 
 var app = express ();
 app.use (bodyParser.json ());
 
-app.use (bunyanRequestLogger().requestLogger ());
+//app.use (bunyanRequestLogger().requestLogger ());
 
 app.use ('/ui/', express.static (path.join (__dirname,'../../ui')));
 
@@ -22,7 +22,7 @@ app.use (function (req, res)
 	error.sendError (res, error.notFound ());
 });
 
-app.use (bunyanRequestLogger().errorLogger ());
+//app.use (bunyanRequestLogger().errorLogger ());
 
 app.use (function (err, req, res, next)
 {

@@ -24,7 +24,7 @@ app.use (function (req, res)
 
 app.use (bunyanRequestLogger().errorLogger ());
 
-app.use (function (err, req, res, next)
+app.use (function (err, req, res, /*next*/)
 {
 	if (err.name === 'UnauthorizedError') 
 	{

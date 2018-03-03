@@ -12,7 +12,7 @@
 						<li><a href="#">Tracking</a></li>
 						<li><a href="#">Contact</a></li>
 						<li class="cta">
-							<img src = "images/call.png" class="call">
+							<img src = "images/call.png">
 						</li>
 					</ul>
 				</nav>
@@ -26,7 +26,7 @@
 	</div>
 	<aside id="fh5co-hero" class="js-fullheight">
 		<div class="backgroundimage">
-		   	<img src = "images/backgroundambulance.jpg">
+		   	<img src = "images/backgroundambulance.jpg" class="img-responsive">
 	  	</div>
 	</aside>
 	<div id="fh5co-services-section">

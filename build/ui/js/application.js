@@ -29684,9 +29684,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-18a1a8f6", __vue__options__)
+    hotAPI.createRecord("data-v-2f731070", __vue__options__)
   } else {
-    hotAPI.reload("data-v-18a1a8f6", __vue__options__)
+    hotAPI.reload("data-v-2f731070", __vue__options__)
   }
 })()}
 },{"bootstrap":1,"jquery":3,"vue":9,"vue-hot-reload-api":6}],11:[function(require,module,exports){
@@ -29729,9 +29729,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-e09ad0b4", __vue__options__)
+    hotAPI.createRecord("data-v-2e04d3c3", __vue__options__)
   } else {
-    hotAPI.reload("data-v-e09ad0b4", __vue__options__)
+    hotAPI.reload("data-v-2e04d3c3", __vue__options__)
   }
 })()}
 },{"vue":9,"vue-hot-reload-api":6}],12:[function(require,module,exports){

@@ -1,6 +1,6 @@
 'use strict';
 
-var pack = require ('../package.json');
+var pack = require ('../../package.json');
 var bunyan = require ('bunyan');
 
 module.exports = function (name)

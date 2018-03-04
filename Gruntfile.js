@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 		{
 			gruntfile: 'Gruntfile.js',
 			server: ['source/server/**/*.js'],
-			ui: ['source/ui/js/*.js', 'source/ui/**/*.vue']
+			ui: ['source/ui/js/*.js', 'source/ui/components/*.vue']
 		},
         
         cssmin: {
@@ -62,6 +62,6 @@ module.exports = function(grunt) {
 	
 	grunt.registerTask ('server', ['eslint:server', 'copy:server']);
 	grunt.registerTask ('ui', ['eslint:ui', 'copy:ui', 'cssmin:style', 'browserify']);
-	grunt.registerTask ('default', ['ui']);
+	grunt.registerTask ('default', ['server', 'ui']);
 };
 
